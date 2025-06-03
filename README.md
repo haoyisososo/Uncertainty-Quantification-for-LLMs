@@ -10,7 +10,7 @@ Large language models (LLMs) have transformed natural language processing, but t
     ```
     python pipeline_agent.py inputfile.csv
     ```
-  - After running the command above, a folder named inputfile will be created. To compute the inverse entropy and evaluation metrics including AUROC, PRR, and Brier Score, run:
+  - After running the command above, a folder named inputfile will be created. To compute the probability in the fully probabilistic framework and uncertainty measures including inv-entropy and evaluation metrics including AUROC, PRR, and Brier Score, run:
     ```
     python pipeline_metric.py inputfile
     ```
